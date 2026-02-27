@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alviya Rizwan</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-name">Alviya Rizwan</span>
+    <ul class="nav-links">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="hero-content">
+      <p class="hero-tag">Data Analyst &amp; UI/UX Designer</p>
+      <h1 class="hero-name">Alviya Rizwan</h1>
+      <p class="hero-sub">
+        Turning raw data into actionable insights and building intuitive digital experiences.
+        B.Tech ECE @ VIT Chennai &middot; Mumbai, India
+      </p>
+      <div class="hero-links">
+        <a href="https://github.com/alviyar" target="_blank" class="btn btn-primary">GitHub</a>
+        <a href="https://linkedin.com/in/alviya-rizwan" target="_blank" class="btn btn-outline">LinkedIn</a>
+        <a href="mailto:alviyarizwan10@gmail.com" class="btn btn-outline">Email</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT -->
+  <section id="about" class="section">
+    <h2 class="section-title">About</h2>
+    <div class="about-body">
+      <p>
+        I'm a Data Analyst and UI/UX Designer with hands-on experience in end-to-end data analysis,
+        business intelligence dashboards, and user-centered product design. I'm passionate about
+        transforming complex datasets into clear, decision-driving narratives and shipping interfaces
+        that people actually want to use.
+      </p>
+      <p>
+        Currently pursuing B.Tech in Electronics &amp; Communication Engineering at VIT Chennai (2023&ndash;2027).
+        I approach every project with an engineering mindset: define the problem clearly, measure what
+        matters, and iterate on results.
+      </p>
+    </div>
+  </section>
+
+  <!-- SKILLS -->
+  <section id="skills" class="section section-alt">
+    <h2 class="section-title">Skills</h2>
+    <div class="skills-grid">
+
+      <div class="skill-group">
+        <h3 class="skill-group-title">Data Analysis</h3>
+        <ul class="skill-list">
+          <li>Python (Pandas, Matplotlib, NumPy)</li>
+          <li>SQL (PostgreSQL)</li>
+          <li>EDA &amp; Feature Engineering</li>
+          <li>Customer Segmentation</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group-title">BI &amp; Visualization</h3>
+        <ul class="skill-list">
+          <li>Power BI</li>
+          <li>KPI Dashboard Design</li>
+          <li>Revenue &amp; Trend Analysis</li>
+          <li>Data Storytelling</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group-title">UI/UX Design</h3>
+        <ul class="skill-list">
+          <li>Figma</li>
+          <li>Wireframing &amp; Prototyping</li>
+          <li>Responsive Design</li>
+          <li>User Research</li>
+        </ul>
+      </div>
+
+      <div class="skill-group">
+        <h3 class="skill-group-title">Tools</h3>
+        <ul class="skill-list">
+          <li>GitHub</li>
+          <li>Vercel</li>
+          <li>Jupyter Notebook</li>
+          <li>VS Code</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="data">Data Analysis</button>
+      <button class="filter-btn" data-filter="uiux">UI/UX</button>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <article class="project-card" data-tags="data">
+        <div class="project-header">
+          <h3 class="project-title">Customer Shopping Behavior Analysis</h3>
+          <span class="project-year">2025</span>
+        </div>
+        <p class="project-stack">Python &middot; PostgreSQL &middot; Power BI</p>
+        <p class="project-desc">
+          Cleaned and analyzed 3,900 purchase records across 18 features. Wrote 10+ SQL queries for
+          revenue analysis by gender/age and 3-tier customer segmentation. Built an interactive Power BI
+          dashboard visualizing revenue trends, product performance, and subscription impact.
+        </p>
+        <ul class="project-bullets">
+          <li>Imputed 37 missing values; engineered age group &amp; purchase-frequency features</li>
+          <li>Segmented customers into New, Returning, and Loyal tiers via SQL</li>
+          <li>Dashboard drives data-informed marketing strategy</li>
+        </ul>
+        <div class="project-footer">
+          <a href="https://github.com/alviyar/customer-behavior-analysis" target="_blank" class="project-link">View on GitHub &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Project 2 -->
+      <article class="project-card" data-tags="data">
+        <div class="project-header">
+          <h3 class="project-title">Zepto Sales &amp; Delivery Performance Analysis</h3>
+          <span class="project-year">2025</span>
+        </div>
+        <p class="project-stack">Python &middot; SQL &middot; Power BI</p>
+        <p class="project-desc">
+          Analyzed 41,000 orders totalling &#8377;24.36M in revenue to evaluate how delivery time impacts
+          business performance. Established delivery speed as a critical KPI and delivered an operational
+          Power BI dashboard for ongoing monitoring.
+        </p>
+        <ul class="project-bullets">
+          <li>Late deliveries (&gt;15 min) caused a 91% revenue drop &mdash; &#8377;22M on-time vs &#8377;2M late</li>
+          <li>KPI dashboard tracks late delivery %, category revenue, and AOV</li>
+          <li>Recommendations adopted as operational improvement targets</li>
+        </ul>
+        <div class="project-footer">
+          <a href="https://github.com/alviyar/Zepto-Sales-and-Delivery-Analysis" target="_blank" class="project-link">View on GitHub &rarr;</a>
+        </div>
+      </article>
+
+      <!-- Project 3 -->
+      <article class="project-card" data-tags="data">
+        <div class="project-header">
+          <h3 class="project-title">Loan Default Prediction &amp; Credit Risk Analysis</h3>
+          <span class="project-year">2025</span>
+        </div>
+        <p class="project-stack">Python &middot; SQL &middot; Power BI</p>
+        <p class="project-desc">
+          Built an end-to-end credit risk analysis pipeline &mdash; cleaning data, engineering risk features,
+          and segmenting borrowers by default likelihood. Delivered actionable insights on key risk
+          factors to support data-driven lending strategy.
+        </p>
+        <ul class="project-bullets">
+          <li>Queried financial indicators via SQL; visualized patterns in Power BI</li>
+          <li>Identified top default-risk predictors through feature analysis</li>
+          <li>Pipeline designed for reproducibility and easy extension</li>
+        </ul>
+        <div class="project-footer">
+          <a href="https://github.com/alviyar" target="_blank" class="project-link">View on GitHub &rarr;</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- EXPERIENCE -->
+  <section id="experience" class="section section-alt">
+    <h2 class="section-title">Experience</h2>
+    <div class="experience-list">
+
+      <div class="exp-item">
+        <div class="exp-meta">
+          <span class="exp-role">UI/UX Design Intern</span>
+          <span class="exp-period">Jun 2025 &ndash; Aug 2025</span>
+        </div>
+        <span class="exp-company">Rhinon Tech &middot; Remote</span>
+        <ul class="exp-bullets">
+          <li>Designed landing page and chatbot interfaces from scratch across 2+ production-ready deliverables</li>
+          <li>Conducted wireframing, prototyping, and user research to improve usability and visual consistency</li>
+          <li>Leveraged CRM insights to align UI decisions with user behavior, improving engagement metrics</li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contact" class="section">
+    <h2 class="section-title">Contact</h2>
+    <p class="contact-intro">Open to data analyst, BI, and UI/UX opportunities. Reach out via any of the channels below.</p>
+    <ul class="contact-list">
+      <li><span class="contact-label">Email</span><a href="mailto:alviyarizwan10@gmail.com">alviyarizwan10@gmail.com</a></li>
+      <li><span class="contact-label">GitHub</span><a href="https://github.com/alviyar" target="_blank">github.com/alviyar</a></li>
+      <li><span class="contact-label">LinkedIn</span><a href="https://linkedin.com/in/alviya-rizwan" target="_blank">linkedin.com/in/alviya-rizwan</a></li>
+      <li><span class="contact-label">Phone</span>+91 9167028963</li>
+      <li><span class="contact-label">Location</span>Mumbai, India</li>
+    </ul>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Built with plain HTML, CSS &amp; JS &middot; Alviya Rizwan &middot; 2025</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
