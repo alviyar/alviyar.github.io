@@ -8,8 +8,11 @@
 </head>
 <body>
 
-  <!-- Custom cursor -->
-  <div class="cursor"></div>
+  <!-- Animated gradient background canvas -->
+  <canvas id="gradient-canvas"></canvas>
+
+  <!-- Custom cursor (star shape) -->
+  <div class="cursor" id="cursor"></div>
 
   <!-- NAV -->
   <nav class="nav">
@@ -111,26 +114,38 @@
     </div>
     <div class="projects-grid">
 
-      <article class="project-card" data-tags="data" data-cursor>
+      <!-- CREDIT CARD FRAUD DETECTION -->
+      <article class="project-card project-card--featured" data-tags="data" data-cursor>
         <div class="project-header">
-          <h3 class="project-title">Customer Shopping Behavior Analysis</h3>
+          <h3 class="project-title">Credit Card Fraud Detection</h3>
           <span class="project-year">2025</span>
         </div>
-        <p class="project-stack">Python &middot; PostgreSQL &middot; Power BI</p>
+        <p class="project-stack">Python &middot; SQL &middot; Power BI &middot; Ollama (Gemma LLM)</p>
         <p class="project-desc">
-          Cleaned and analyzed 3,900 purchase records across 18 features. Wrote 10+ SQL queries for
-          revenue analysis by gender/age and 3-tier customer segmentation. Built an interactive Power BI
-          dashboard visualizing revenue trends, product performance, and subscription impact.
+          Interactive Power BI dashboard analyzing fraud patterns across 10,000 credit card transactions.
+          Identifies high-risk segments based on transaction behavior, device trust, and merchant category
+          to support data-driven fraud prevention &mdash; with an AI-generated executive risk summary via LLM.
         </p>
         <ul class="project-bullets">
-          <li>Imputed 37 missing values; engineered age group &amp; purchase-frequency features</li>
-          <li>Segmented customers into New, Returning, and Loyal tiers via SQL</li>
-          <li>Dashboard drives data-informed marketing strategy</li>
+          <li><strong>10,000</strong> transactions &middot; <strong>151</strong> fraud cases &middot; &#8377;32.64K fraud amount &middot; <strong>1.51%</strong> fraud rate</li>
+          <li>Foreign transactions &amp; high-velocity behavior flagged as top risk drivers</li>
+          <li>Device trust segmentation (High / Medium / Low) correlated with fraud probability</li>
+          <li>Grocery &amp; Travel categories contributed highest fraud amounts</li>
+          <li>Integrated Ollama (Gemma) LLM for automated executive-level fraud risk reports</li>
+          <li>5-panel dashboard: Domestic vs Foreign risk, Merchant Category, Velocity, Device Trust, Risk Matrix</li>
         </ul>
+        <div class="project-tags-row">
+          <span class="project-badge">Fraud Analytics</span>
+          <span class="project-badge">LLM Integration</span>
+          <span class="project-badge">Power BI</span>
+          <span class="project-badge">Risk Segmentation</span>
+        </div>
         <div class="project-footer">
-          <a href="https://github.com/alviyar/customer-behavior-analysis" target="_blank" class="project-link" data-cursor>View on GitHub &rarr;</a>
+          <a href="https://github.com/alviyar/credit-card-fraud-detection" target="_blank" class="project-link" data-cursor>View on GitHub &rarr;</a>
         </div>
       </article>
+
+
 
       <article class="project-card" data-tags="data" data-cursor>
         <div class="project-header">
@@ -153,27 +168,29 @@
         </div>
       </article>
 
+
+
+
       <article class="project-card" data-tags="data" data-cursor>
         <div class="project-header">
-          <h3 class="project-title">Loan Default Prediction &amp; Credit Risk Analysis</h3>
+          <h3 class="project-title">Customer Shopping Behavior Analysis</h3>
           <span class="project-year">2025</span>
         </div>
-        <p class="project-stack">Python &middot; SQL &middot; Power BI</p>
+        <p class="project-stack">Python &middot; PostgreSQL &middot; Power BI</p>
         <p class="project-desc">
-          Built an end-to-end credit risk analysis pipeline &mdash; cleaning data, engineering risk features,
-          and segmenting borrowers by default likelihood. Delivered actionable insights on key risk
-          factors to support data-driven lending strategy.
+          Cleaned and analyzed 3,900 purchase records across 18 features. Wrote 10+ SQL queries for
+          revenue analysis by gender/age and 3-tier customer segmentation. Built an interactive Power BI
+          dashboard visualizing revenue trends, product performance, and subscription impact.
         </p>
         <ul class="project-bullets">
-          <li>Queried financial indicators via SQL; visualized patterns in Power BI</li>
-          <li>Identified top default-risk predictors through feature analysis</li>
-          <li>Pipeline designed for reproducibility and easy extension</li>
+          <li>Imputed 37 missing values; engineered age group &amp; purchase-frequency features</li>
+          <li>Segmented customers into New, Returning, and Loyal tiers via SQL</li>
+          <li>Dashboard drives data-informed marketing strategy</li>
         </ul>
         <div class="project-footer">
-          <a href="https://github.com/alviyar" target="_blank" class="project-link" data-cursor>View on GitHub &rarr;</a>
+          <a href="https://github.com/alviyar/customer-behavior-analysis" target="_blank" class="project-link" data-cursor>View on GitHub &rarr;</a>
         </div>
       </article>
-
     </div>
   </section>
 
@@ -204,7 +221,7 @@
       <li><span class="contact-label">Email</span><a href="mailto:alviyarizwan10@gmail.com" data-cursor>alviyarizwan10@gmail.com</a></li>
       <li><span class="contact-label">GitHub</span><a href="https://github.com/alviyar" target="_blank" data-cursor>github.com/alviyar</a></li>
       <li><span class="contact-label">LinkedIn</span><a href="https://linkedin.com/in/alviya-rizwan" target="_blank" data-cursor>linkedin.com/in/alviya-rizwan</a></li>
-      <li><span class="contact-label">Phone</span>+91 9167028963</li>
+      <li><span class="contact-label">Phone</span>+91 91670 28963</li>
       <li><span class="contact-label">Location</span>Mumbai, India</li>
     </ul>
   </section>
