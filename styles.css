@@ -297,7 +297,7 @@ ul { list-style: none; }
 .section-alt > * { max-width: var(--container); margin-left: auto; margin-right: auto; }
 .section-alt .section-title,
 .section-alt .section-num { color: var(--rose); }
-.section-alt .section-desc { color: rgba(255, 248, 245, 0.65); }
+.section-alt .section-desc { color: #AB7477; }
 
 .section-head {
   display: flex;
@@ -421,7 +421,7 @@ ul { list-style: none; }
   border: 1px solid rgba(244, 201, 214, 0.3);
   border-radius: 999px;
   background: transparent;
-  color: rgba(255, 248, 245, 0.6);
+  color: #AB7477;
   cursor: pointer;
   transition: all 0.2s ease;
 }
