@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alviya Rizwan — Analyst's Workspace</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,500;9..144,600;9..144,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- Custom cursor -->
+  <div class="cursor" id="cursor"></div>
+
+  <!-- Texture overlay -->
+  <div class="grain"></div>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <span class="nav-name">Alviya Rizwan<span class="nav-dot">·</span><span class="nav-tag">Analyst</span></span>
+    <ul class="nav-links">
+      <li><a href="#explore"><span class="nav-num">01</span> Explore</a></li>
+      <li><a href="#analyze"><span class="nav-num">02</span> Analyze</a></li>
+      <li><a href="#visualize"><span class="nav-num">03</span> Visualize</a></li>
+      <li><a href="#recommend"><span class="nav-num">04</span> Recommend</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO / COVER SHEET -->
+  <section class="hero" id="explore">
+    <div class="hero-grid">
+      <div class="hero-main">
+        <p class="case-label">CASE FILE — OPEN</p>
+        <h1 class="hero-name">Alviya<br/>Rizwan</h1>
+        <p class="hero-role">Data Analyst &amp; UI/UX Designer</p>
+        <p class="hero-sub">
+          I work the way a good analyst thinks out loud — explore the data, find the
+          pattern, show it clearly, and say what to do about it. B.Tech ECE @ VIT Chennai
+          &middot; based in Mumbai.
+        </p>
+        <div class="hero-links">
+          <a href="https://github.com/alviyar" target="_blank" class="btn btn-primary" data-cursor>GitHub ↗</a>
+          <a href="https://linkedin.com/in/alviya-rizwan" target="_blank" class="btn btn-outline" data-cursor>LinkedIn ↗</a>
+          <a href="mailto:alviyarizwan10@gmail.com" class="btn btn-outline" data-cursor>Email ↗</a>
+        </div>
+      </div>
+      <div class="hero-side">
+        <div class="margin-note margin-note--1">3 dashboards shipped<br/>in the last 12 months</div>
+        <div class="case-stamp">
+          <span class="case-stamp-line">STATUS</span>
+          <span class="case-stamp-value">Open to Roles</span>
+        </div>
+        <div class="margin-note margin-note--2">↳ avg. dataset size:<br/>10K+ records</div>
+      </div>
+    </div>
+    <div class="hero-foot">
+      <span>Scroll to open the workspace</span>
+      <span class="hero-foot-line"></span>
+    </div>
+  </section>
+
+  <!-- ANALYZE — ABOUT + SKILLS -->
+  <section id="analyze" class="section">
+    <div class="section-head">
+      <span class="section-num">02</span>
+      <h2 class="section-title">Analyze</h2>
+      <p class="section-desc">The working method, and the tools it runs on.</p>
+    </div>
+
+    <div class="analyze-grid">
+      <div class="about-card">
+        <p class="card-eyebrow">// approach</p>
+        <p>
+          I'm a Data Analyst and UI/UX Designer with hands-on experience across end-to-end
+          analysis, BI dashboards, and user-centered design. I'm drawn to the moment a messy
+          dataset turns into a clear narrative — and to building the interface that delivers it.
+        </p>
+        <p>
+          Currently pursuing B.Tech in Electronics &amp; Communication Engineering at VIT
+          Chennai (2023–2027). Every project follows the same loop: define the question,
+          measure what matters, and iterate until the recommendation is obvious.
+        </p>
+      </div>
+
+      <div class="skills-stack">
+        <div class="skill-row">
+          <span class="skill-row-label">Data Analysis</span>
+          <div class="skill-row-items">
+            <span class="chip">Python</span>
+            <span class="chip">Pandas</span>
+            <span class="chip">NumPy</span>
+            <span class="chip">SQL</span>
+            <span class="chip">EDA</span>
+            <span class="chip">Feature Engineering</span>
+            <span class="chip">Segmentation</span>
+          </div>
+        </div>
+        <div class="skill-row">
+          <span class="skill-row-label">BI &amp; Viz</span>
+          <div class="skill-row-items">
+            <span class="chip">Power BI</span>
+            <span class="chip">KPI Dashboards</span>
+            <span class="chip">Trend Analysis</span>
+            <span class="chip">Data Storytelling</span>
+          </div>
+        </div>
+        <div class="skill-row">
+          <span class="skill-row-label">UI/UX</span>
+          <div class="skill-row-items">
+            <span class="chip">Figma</span>
+            <span class="chip">Wireframing</span>
+            <span class="chip">Prototyping</span>
+            <span class="chip">Responsive Design</span>
+            <span class="chip">User Research</span>
+          </div>
+        </div>
+        <div class="skill-row">
+          <span class="skill-row-label">Tooling</span>
+          <div class="skill-row-items">
+            <span class="chip">GitHub</span>
+            <span class="chip">Vercel</span>
+            <span class="chip">Jupyter</span>
+            <span class="chip">VS Code</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- VISUALIZE — PROJECTS -->
+  <section id="visualize" class="section section-alt">
+    <div class="section-head">
+      <span class="section-num">03</span>
+      <h2 class="section-title">Visualize</h2>
+      <p class="section-desc">Four datasets, four findings, four shipped dashboards.</p>
+    </div>
+
+    <div class="filter-bar">
+      <button class="filter-btn active" data-filter="all">All Reports</button>
+      <button class="filter-btn" data-filter="data">Data Analysis</button>
+      <button class="filter-btn" data-filter="uiux">UI/UX</button>
+    </div>
+
+    <div class="projects-grid">
+
+      <!-- CREDIT CARD FRAUD -->
+      <article class="report-card report-card--featured" data-tags="data" data-cursor>
+        <div class="report-tab">
+          <span class="report-tab-id">FILE 01</span>
+          <span class="report-tab-status">FLAGGED</span>
+        </div>
+        <div class="report-header">
+          <h3 class="report-title">Credit Card Fraud Detection</h3>
+          <span class="report-year">2026</span>
+        </div>
+        <p class="report-stack">Python · SQL · Power BI · Ollama (Gemma LLM)</p>
+        <p class="report-desc">
+          Interactive dashboard analyzing fraud patterns across 10,000 transactions —
+          identifying high-risk segments by behavior, device trust, and merchant category,
+          with an AI-generated executive risk summary.
+        </p>
+        <div class="metric-strip">
+          <div class="metric"><span class="metric-value">10,000</span><span class="metric-label">transactions</span></div>
+          <div class="metric"><span class="metric-value">151</span><span class="metric-label">fraud cases</span></div>
+          <div class="metric"><span class="metric-value">₹32.64K</span><span class="metric-label">fraud amount</span></div>
+          <div class="metric"><span class="metric-value">1.51%</span><span class="metric-label">fraud rate</span></div>
+        </div>
+        <ul class="report-findings">
+          <li>Foreign transactions &amp; high-velocity behavior flagged as top risk drivers</li>
+          <li>Device trust segmentation (High / Medium / Low) correlated with fraud probability</li>
+          <li>Grocery &amp; Travel categories contributed highest fraud amounts</li>
+          <li>Integrated Ollama (Gemma) LLM for automated executive-level risk reports</li>
+          <li>5-panel dashboard: Domestic vs Foreign, Merchant Category, Velocity, Device Trust, Risk Matrix</li>
+        </ul>
+        <div class="report-tags-row">
+          <span class="report-badge">Fraud Analytics</span>
+          <span class="report-badge">LLM Integration</span>
+          <span class="report-badge">Power BI</span>
+          <span class="report-badge">Risk Segmentation</span>
+        </div>
+        <div class="report-footer">
+          <a href="https://alviyar.github.io/credit-card-fraud-detection/" target="_blank" class="report-link" data-cursor>Open Dashboard →</a>
+        </div>
+      </article>
+
+      <!-- CHURN -->
+      <article class="report-card" data-tags="data" data-cursor>
+        <div class="report-tab">
+          <span class="report-tab-id">FILE 02</span>
+          <span class="report-tab-status">AT RISK</span>
+        </div>
+        <div class="report-header">
+          <h3 class="report-title">Customer Churn Analysis</h3>
+          <span class="report-year">2026</span>
+        </div>
+        <p class="report-stack">Python · PostgreSQL · Power BI</p>
+        <p class="report-desc">
+          Strategic case study on attrition across 7,043 telecom subscribers — evaluating how
+          service quality, billing friction, and contract structure drive long-term revenue loss.
+        </p>
+        <div class="metric-strip">
+          <div class="metric"><span class="metric-value">7,043</span><span class="metric-label">customers</span></div>
+          <div class="metric"><span class="metric-value">26.54%</span><span class="metric-label">churn rate</span></div>
+          <div class="metric"><span class="metric-value">₹295K</span><span class="metric-label">annual loss</span></div>
+          <div class="metric"><span class="metric-value">47.44%</span><span class="metric-label">year-1 churn</span></div>
+        </div>
+        <ul class="report-findings">
+          <li>First-year customers churn at 47.44% — critical intervention window</li>
+          <li>Month-to-month contracts churn 15x more than two-year (42.71% vs 2.83%)</li>
+          <li>Tech support cuts churn by 26 points (41.64% → 15.17%)</li>
+          <li>Electronic check users churn at 3x the rate of auto-pay (45.29% vs 15.24%)</li>
+          <li>6-priority action matrix: onboarding playbook, contract migration, auto-pay incentives, support bundling</li>
+        </ul>
+        <div class="report-tags-row">
+          <span class="report-badge">Churn Analytics</span>
+          <span class="report-badge">Revenue Optimization</span>
+          <span class="report-badge">Segmentation</span>
+          <span class="report-badge">Power BI</span>
+        </div>
+        <div class="report-footer">
+          <a href="https://alviyar.github.io/Customer-Churn/" target="_blank" class="report-link" data-cursor>Open Dashboard →</a>
+        </div>
+      </article>
+
+      <!-- ZEPTO -->
+      <article class="report-card" data-tags="data" data-cursor>
+        <div class="report-tab">
+          <span class="report-tab-id">FILE 03</span>
+          <span class="report-tab-status">RESOLVED</span>
+        </div>
+        <div class="report-header">
+          <h3 class="report-title">Zepto Sales &amp; Delivery Performance</h3>
+          <span class="report-year">2025</span>
+        </div>
+        <p class="report-stack">Python · SQL · Power BI</p>
+        <p class="report-desc">
+          Analyzed 41,000 orders totalling ₹24.36M to evaluate how delivery time impacts
+          business performance, and shipped an operational dashboard for ongoing monitoring.
+        </p>
+        <div class="metric-strip">
+          <div class="metric"><span class="metric-value">41,000</span><span class="metric-label">orders</span></div>
+          <div class="metric"><span class="metric-value">₹24.36M</span><span class="metric-label">revenue</span></div>
+          <div class="metric"><span class="metric-value">91%</span><span class="metric-label">revenue drop, late</span></div>
+        </div>
+        <ul class="report-findings">
+          <li>Late deliveries (&gt;15 min) caused a 91% revenue drop — ₹22M on-time vs ₹2M late</li>
+          <li>KPI dashboard tracks late delivery %, category revenue, and AOV</li>
+          <li>Recommendations adopted as operational improvement targets</li>
+        </ul>
+        <div class="report-footer">
+          <a href="https://alviyar.github.io/Zepto-Sales-and-Delivery-Analysis/" target="_blank" class="report-link" data-cursor>Open Dashboard →</a>
+        </div>
+      </article>
+
+      <!-- SHOPPING BEHAVIOR -->
+      <article class="report-card" data-tags="data" data-cursor>
+        <div class="report-tab">
+          <span class="report-tab-id">FILE 04</span>
+          <span class="report-tab-status">SEGMENTED</span>
+        </div>
+        <div class="report-header">
+          <h3 class="report-title">Customer Shopping Behavior</h3>
+          <span class="report-year">2025</span>
+        </div>
+        <p class="report-stack">Python · PostgreSQL · Power BI</p>
+        <p class="report-desc">
+          Cleaned and analyzed 3,900 purchase records across 18 features — segmenting customers
+          into tiers and building a dashboard to drive marketing strategy.
+        </p>
+        <div class="metric-strip">
+          <div class="metric"><span class="metric-value">3,900</span><span class="metric-label">records</span></div>
+          <div class="metric"><span class="metric-value">18</span><span class="metric-label">features</span></div>
+          <div class="metric"><span class="metric-value">3</span><span class="metric-label">customer tiers</span></div>
+        </div>
+        <ul class="report-findings">
+          <li>Imputed 37 missing values; engineered age group &amp; purchase-frequency features</li>
+          <li>Segmented customers into New, Returning, and Loyal tiers via SQL</li>
+          <li>10+ SQL queries for revenue analysis by gender and age</li>
+        </ul>
+        <div class="report-footer">
+          <a href="https://alviyar.github.io/customer-behavior-analysis/" target="_blank" class="report-link" data-cursor>Open Dashboard →</a>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- RECOMMEND — EXPERIENCE + CONTACT -->
+  <section id="recommend" class="section">
+    <div class="section-head">
+      <span class="section-num">04</span>
+      <h2 class="section-title">Recommend</h2>
+      <p class="section-desc">Where I've worked, and where to reach me next.</p>
+    </div>
+
+    <div class="recommend-grid">
+      <div class="experience-card">
+        <p class="card-eyebrow">// experience</p>
+        <div class="exp-item">
+          <div class="exp-meta">
+            <span class="exp-role">UI/UX Design Intern</span>
+            <span class="exp-period">Jun 2025 – Aug 2025</span>
+          </div>
+          <span class="exp-company">Rhinon Tech · Remote</span>
+          <ul class="exp-bullets">
+            <li>Designed landing page and chatbot interfaces from scratch across 2+ production-ready deliverables</li>
+            <li>Conducted wireframing, prototyping, and user research to improve usability and visual consistency</li>
+            <li>Leveraged CRM insights to align UI decisions with user behavior, improving engagement metrics</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="contact-card">
+        <p class="card-eyebrow">// next steps</p>
+        <p class="contact-intro">Open to data analyst, BI, and UI/UX roles. The recommendation is simple — let's talk.</p>
+        <ul class="contact-list">
+          <li><span class="contact-label">Email</span><a href="mailto:alviyarizwan10@gmail.com" data-cursor>alviyarizwan10@gmail.com</a></li>
+          <li><span class="contact-label">GitHub</span><a href="https://github.com/alviyar" target="_blank" data-cursor>github.com/alviyar</a></li>
+          <li><span class="contact-label">LinkedIn</span><a href="https://linkedin.com/in/alviya-rizwan" target="_blank" data-cursor>linkedin.com/in/alviya-rizwan</a></li>
+          <li><span class="contact-label">Phone</span><span>+91 91670 28963</span></li>
+          <li><span class="contact-label">Location</span><span>Mumbai, India</span></li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>Case file closed — for now · Alviya Rizwan · 2026</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
