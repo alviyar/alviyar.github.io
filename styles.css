@@ -67,7 +67,7 @@ ul { list-style: none; }
     79% 91%, 50% 70%, 21% 91%, 32% 57%,
     2% 35%, 39% 35%
   );
-  background: var(--brown-deep);
+  background: var(--rose);
 }
 
 .cursor.hover {
@@ -78,7 +78,7 @@ ul { list-style: none; }
 
 /* Text-inversion state — triggered when over p, h1-h6, li, span, a */
 .cursor.on-text {
-  background: var(--mauve);
+  background: var(--rose-deep);
   mix-blend-mode: difference;
   width: 26px;
   height: 26px;
